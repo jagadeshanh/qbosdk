@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+/examples/*
+!/examples/index.html
+!/examples/oauth_server.py
+*.pdf
+docs/_build/
+AGENTS.md
+*.json
