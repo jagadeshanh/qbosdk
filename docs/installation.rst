@@ -1,12 +1,16 @@
 Installation and configuration
 ==============================
 
-The SDK has no third-party runtime dependencies. Install a local checkout in a virtual environment::
+The SDK has no third-party runtime dependencies. Once the first release is available on PyPI, install it with::
+
+    python -m pip install qbosdkonline
+
+To install a local checkout in a virtual environment::
 
     python3 -m venv .venv
     .venv/bin/python -m pip install .
 
-A PyPI release is planned but is not available yet. The installed SDK is imported as ``qbosdk``.
+Both methods install the ``qbosdk`` Python module.
 
 Register an Intuit app, then provide its client ID, client secret, environment and registered redirect URI to the application. The example scripts can read these environment variables:
 

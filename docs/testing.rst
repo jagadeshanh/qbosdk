@@ -15,4 +15,16 @@ Building these documentation pages requires Sphinx, listed in ``docs/requirement
 
     sphinx-build -b html docs docs/_build/html
 
-The repository's ``.readthedocs.yaml`` configures a future Read the Docs build. Publishing requires connecting the repository and running a build on Read the Docs; the site has not been published or verified there.
+The repository's ``.readthedocs.yaml`` configures the hosted documentation build. View the `published documentation <https://qbosdk.readthedocs.io/en/latest/>`_.
+
+Releasing to PyPI
+-----------------
+
+The ``publish-pypi.yml`` workflow runs tests, builds and checks the distributions,
+and verifies that the wheel works in a clean environment. A push to ``main``
+runs these checks. A push of a tag matching the package version, such as
+``v0.1.0``, also publishes through the GitHub ``pypi`` environment.
+
+Before the first release, register a PyPI pending Trusted Publisher for project
+``qbosdkonline``, GitHub owner ``jagadeshanh``, repository ``qbosdk``,
+workflow ``publish-pypi.yml``, and environment ``pypi``.

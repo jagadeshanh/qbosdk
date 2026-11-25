@@ -1,0 +1,4 @@
+include CHANGELOG.md
+include examples/index.html
+include examples/oauth_server.py
+recursive-include tests test_*.py

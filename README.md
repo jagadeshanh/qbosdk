@@ -2,6 +2,10 @@
 
 A pure Python SDK for QuickBooks Online OAuth, webhooks, and the Accounting API. It requires Python 3.9 or later and has no runtime dependencies. See the [documentation guide](docs/index.rst) for setup and examples, the [webhook guide](docs/webhooks.rst) for receiving notifications, and the [API index](docs/api-index.rst) for supported accounting operations.
 
+## Installation
+
+Once the first release is available on PyPI, install it with `python -m pip install qbosdkonline`. To use the source checkout, run `python -m pip install .` in a virtual environment. Both install the `qbosdk` Python module.
+
 ## Configuration
 
 Fill in `.env` with the client ID, client secret and exact redirect URI registered for your Intuit app. Select `sandbox` (development credentials) or `production` (production credentials). `.env` is ignored by Git. It is not loaded automatically: export its values into the process environment using your application's secret manager or, for local shell use, `set -a; source .env; set +a`. Never share this file or commit credentials.

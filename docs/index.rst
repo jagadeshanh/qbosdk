@@ -35,4 +35,4 @@ A Python SDK for connecting to QuickBooks Online and working with the Accounting
    errors
    testing
 
-The SDK is under development; it has not yet been published to PyPI. Consult `Intuit's documentation <https://developer.intuit.com/app/developer/qbo/docs/get-started>`_ for current API behavior.
+See :doc:`installation` for package setup. Consult `Intuit's documentation <https://developer.intuit.com/app/developer/qbo/docs/get-started>`_ for current API behavior.
