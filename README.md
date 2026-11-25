@@ -4,7 +4,7 @@ A pure Python SDK for QuickBooks Online OAuth, webhooks, and the Accounting API.
 
 ## Installation
 
-Once the first release is available on PyPI, install it with `python -m pip install qbosdkonline`. To use the source checkout, run `python -m pip install .` in a virtual environment. Both install the `qbosdk` Python module.
+Install the SDK with `python -m pip install qbosdkonline`. To use the source checkout, run `python -m pip install .` in a virtual environment. Both install the `qbosdk` Python module. [PyPI project](https://pypi.org/project/qbosdkonline/)
 
 ## Configuration
 

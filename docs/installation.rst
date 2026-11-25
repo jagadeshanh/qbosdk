@@ -1,7 +1,7 @@
 Installation and configuration
 ==============================
 
-The SDK has no third-party runtime dependencies. Once the first release is available on PyPI, install it with::
+The SDK has no third-party runtime dependencies. Install it from PyPI::
 
     python -m pip install qbosdkonline
 
